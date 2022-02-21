@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #132018;
+}
+.nav { 
+    position: sticky;
+    top: o;
+    z-index: 2;
+}
+.nav__logo {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-bottom: 85px;
+    width: 30px;
+    
+    
+    
+}
+.titulo {
+    color: #8c3503;
+    margin-top: 30px;
+    padding-left: 130px;
+    
+    
+}
+.nav__link {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+.nav__links {
+    margin-left: 60px;
+    padding-left: 50px;
+    list-style: none;
+    display: inline-block;
+}
+.nav__item {
+    display: inline-block;
+}
+.card__header {
+    padding-top:10px ;
+    margin-bottom: 10px;
+    background-color: #8c3503;
+}
+.card__header .texto {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: 
+    
+}
+.div__image {
+    background-color: #8c3503;
+    width: 200px;
+    border-radius: 50px;
+    border-bottom: 10px;
+    margin-left: 30px;
+}
+h4 {
+    color: white;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+/* FOOTER */
+.footer__opciones {
+    color: white;
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.nav__search {
+    display: inline-block;
+    margin-left: 10px;
+}
+.nav__input {
+    height: 10px;
+    border-radius: 25px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+
+.titulo--nosotros {
+    color: azure;
+}
+.form {
+    color: white;
+}
+.campaña1 {
+    color:azure;
+}
+.contactame {
+    color: azure;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.evento1 {
+    color: azure;
+}
+.evento {
+    color: azure;
+}
+.presupuesto {
+    color: azure;
+}
+.contactoT {
+    color: beige;
+}
+.contactoP {
+    color: burlywood;
+}
+.ubicacionP {
+    color: cornsilk;
+}
+.ubicacion {
+    color: darkgrey;
+    width: 25px; 
+}
+.llamada {
+    color: cornsilk;
+}
+.llamadapng {
+    width: 25px;
+}
+.blogT {
+    color: cornsilk;
+}
+.imagenB {
+    width: 500px;
+}
+.container__caja {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+.container__img {
+    width: 300px;
+    gap: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+@media screen and (max-width:1200px) {
+    .responsive__header {
+        background-color: rgb(7, 48, 83);
+        text-align: center;
+        font-size: 38px;
+    }
+    .nav__logo {
+        width: 70px;
+    }
+    .footer__opciones {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+}
